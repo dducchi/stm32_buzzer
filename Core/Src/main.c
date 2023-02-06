@@ -100,7 +100,7 @@ int main(void)
   MX_TIM1_Init();
   /* USER CODE BEGIN 2 */
   HAL_TIM_PWM_Start(&htim1, TIM_CHANNEL_1);
-  //initUart();
+  initUart();
   /* USER CODE END 2 */
 
   /* Infinite loop */
